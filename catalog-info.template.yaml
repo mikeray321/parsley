@@ -1,0 +1,7 @@
+apiVersion: parsley/v1alpha1
+kind: __KIND__
+metadata:
+  name: __NAME__
+spec:
+  lifecycle: __LIFECYCLE__
+  owner: __OWNER__
