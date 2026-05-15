@@ -14,6 +14,7 @@ Self-Updating Registry: Validated freeform entries are instantly appended to the
 System Integration
 The script outputs a completed catalog-info.yaml file. In the broader toolchain, an ingestion script scans the infrastructure directory, aggregates these artifacts, and compiles them into a downstream SQLite catalog.db for fast lookups and dependency graphing.
 
+```
 $ tree
 .
 ├── catalog-info.template.yaml
@@ -23,4 +24,4 @@ $ tree
 │   ├── __LIFECYCLE__
 │   └── __OWNER__
 └── parsley.sh
-
+```
